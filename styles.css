@@ -283,18 +283,18 @@ body {
 
 #content h2 {
     display: block;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 #content h3 {
     display: block;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 #content p {
     display: block;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .section4 h2 {
@@ -306,8 +306,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .community-images img {
@@ -383,13 +383,9 @@ hr {
     font-size: 11pt;
 }
 
-.current-sponsors {
-    text-align: center;
-}
-
 .sponsor-logos {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -442,6 +438,43 @@ hr {
     height: auto;
 }
 
+.donate-steps {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 15pt;
+    margin-left: 100px;
+}
+
+div.donate-steps {
+    counter-reset: list-number;
+}
+
+div.donate-steps div:before {
+    counter-increment: list-number;
+    content: counter(list-number);
+    
+    margin-right: 10px;
+    margin-bottom:10px;
+    width:35px;
+    height:35px;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    font-size:16px;
+    background-color:#F76902;
+    border-radius:50%;
+    color:#fff;
+}
+
+.sponsor-tiers img {
+    display: block;
+    text-align: center;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -490,7 +523,7 @@ footer {
     h1 {
         font-size: 25pt;
         color: black;
-        margin-left: 150px;
+        margin-left: 100px;
         margin-top: 50px;
     }
 
