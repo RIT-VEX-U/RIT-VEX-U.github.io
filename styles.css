@@ -35,9 +35,10 @@ body {
 }
 
 .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
+    padding: 10px;
+    /* margin-bottom: 7px; */
     display: inline;
+    position: relative;
 }
 
 .menu li:hover {
@@ -45,17 +46,21 @@ body {
     text-decoration: underline;
 }
 
+#selected li:hover {
+    background-color: #000000;
+    text-decoration: underline;
+}
+
 .menu a {
     text-decoration: none;
     color: white;
     font-size: 12pt;
-    height: 45px;
+    display: inline-block;
+    height: 30px;
 }
-
+ 
 #selected {
     color:#F76902;
-    padding: 10px;
-    margin-bottom: 7px;
 }
 
 .mission-statement {
