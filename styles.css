@@ -32,11 +32,12 @@ body {
     top: 0;
     font-family: "Tahoma", sans-serif;
     width: 100%;
+    padding-bottom: 0;
 }
 
 .menu li {
     padding: 10px;
-    /* margin-bottom: 7px; */
+    /* padding-bottom: 0; */
     display: inline;
     position: relative;
 }
