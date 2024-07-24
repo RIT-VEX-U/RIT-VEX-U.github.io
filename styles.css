@@ -271,6 +271,119 @@ body {
     background-color:#F76902;
 }
 
+.seasons-list {
+    margin-left: 50px;
+}
+
+.single-season {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.seasons-list h2 {
+    font-size: 15pt;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-left: 15px;
+    color: #F76902;
+}
+
+.award {
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: rgb(85, 85, 85);
+    font-family: "Lucida Sans", sans-serif;
+    text-decoration: underline;
+}
+
+.record {
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: rgb(85, 85, 85);
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.seasons-list ul {
+    /* width: 30%; */
+    z-index: -100;
+}
+
+.seasons-list ul li {
+    z-index: -100;
+    left: 0;
+    color: #000000;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #F76902;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.seasons-list ul li:hover {
+    left: 10px;
+}
+
+.seasons-list ul li span {
+    position: relative;
+    /* z-index: -100; */
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+    font-size: 18pt;
+}
+
+.seasons-list ul li:hover span {
+    color: #111;
+}
+
+.seasons-list ul li:before {
+    content: "";
+    position: absolute;
+    z-index: -100;
+    width: 20%;
+    height: 45px;
+    background: #F76902;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.seasons-list ul li:hover:before {
+    transform: scaleX(1);
+}
+
+.awards-list p {
+    font-size: 13pt;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+    font-family: "Lucida Sans", sans-serif;
+    line-height: 12px;
+}
+
+.season-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.season-flex img {
+    height: 300px;
+    margin-left: 200px;
+}
+
 .section2 h2 {
     padding: 0;
     margin-left: 0;
