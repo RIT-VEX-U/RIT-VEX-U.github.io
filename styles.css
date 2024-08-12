@@ -476,6 +476,7 @@ div.donate-steps div:before {
     height: auto;
 }
 
+/* PORTRAIT MOBILE PHONES */
 @media only screen and (max-width: 600px) {
 
     h1 {
@@ -507,7 +508,7 @@ div.donate-steps div:before {
     .menu a {
         text-decoration: none;
         color: white;
-        font-size: 10pt;
+        font-size: 8pt;
         display: inline-block;
         height: 30px;
     }
@@ -668,6 +669,7 @@ div.donate-steps div:before {
 
 }
 
+/* LAPTOP, DESKTOP, LANDSCAPE TABLETS */
 @media only screen and (min-width: 600px) {
 
     h1 {
