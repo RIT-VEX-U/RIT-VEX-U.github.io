@@ -51,14 +51,6 @@ body {
     background-color: #000000;
     text-decoration: underline;
 }
-
-.menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 12pt;
-    display: inline-block;
-    height: 30px;
-}
  
 #selected {
     color:#F76902;
@@ -66,16 +58,6 @@ body {
 
 .mission-statement {
     text-align: center;
-}
-
-.mission-statement p {
-    padding: 15px;
-    font-size: 15pt;
-    color: rgb(104, 104, 104);
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .join {
@@ -97,106 +79,6 @@ body {
 }
 
 .join a:hover {
-    background-color:#F76902;
-}
-
-.scroll-container {
-    background-color: black;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
-}
-  
-.scroll-container img {
-    padding:0;
-    max-height: 300px;
-}
-
-.home-stats {
-    text-align: center;
-    align-items: center;
-    display: block;
-    padding: 10px;
-    margin: 40px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #D7D2CB;
-}
-
-.home-stats h1 {
-    padding: 0;
-    margin-bottom: 40px;
-    color:#363331;
-    margin-left: 0;
-}
-
-.home-stats h1:hover {
-    color:#F76902;
-}
-
-.home-stats h2 {
-    padding: 0;
-    margin: 15px;
-    color:#363331;
-    font-size: 15pt;
-}
-
-#record {
-    font-size: 50pt;
-    color:#F76902;
-    margin-bottom: 20px;  
-    font-family: Oswald, sans-serif;
-    font-weight: normal;
-}
-
-#awards {
-    font-size: 20pt;
-    color:#F76902;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 15px;
-    font-family: Oswald, sans-serif;
-    list-style-type: none;
-    line-height: 1.4;
-}
-
-.sponsor-thanks {
-    background-color: #ACA39A;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.sponsor-thanks p {
-    font-size: 15pt;
-    margin-left: 0;
-}
-
-.sponsor-thanks h1 {
-    color: white;
-    margin-left: 0;
-}
-
-.sponsor-thanks a {
-    font-size: 15pt;
-    align-items: center;
-    background-color: #D7D2CB;
-    color: #363331;
-    font-family: "Tahoma", sans-serif;
-    text-decoration: none;
-    border: none;
-    padding: 15px;
-    display: inline-block;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    margin-left: 0;
-}
-
-.sponsor-thanks a:hover {
     background-color:#F76902;
 }
 
@@ -594,46 +476,195 @@ div.donate-steps div:before {
     height: auto;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.footer img {
-    margin: 50px;
-    width: 200px;
-    height: auto;
-}
-
-footer {
-    text-align: center;
-    background-color: #D7D2CB;
-}
-
-.footer h2 {
-    margin-left: 50px;
-}
-
-#insta img {
-    width: 25px;
-    height: auto;
-    margin: 10px;
-    /* margin-top: 10px;
-    margin-bottom: 10px; */
-}
-
-#youtube img {
-    width: 30px;
-    height: auto;
-    margin: 5px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-
 @media screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 15pt;
+        color: black;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 14pt;
+        color: rgb(85, 85, 85);
+        margin-top: 50px;
+    }
+
+    h3 {
+        font-size: 12pt;
+        color: rgb(94, 94, 94);
+        margin-left: 50px;
+    }
+    
+    p {
+        color:rgb(79, 79, 79);
+        margin-left: 50px;
+        font-size: 11pt;
+        line-height: 1.4;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 10pt;
+        display: inline-block;
+        height: 30px;
+    }
+
+    .mission-statement p {
+        padding: 15px;
+        font-size: 12pt;
+        color: rgb(104, 104, 104);
+        display: block;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .scroll-container {
+        background-color: black;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+      
+    .scroll-container img {
+        padding:0;
+        max-height: 200px;
+    }
+
+    .home-stats {
+        text-align: center;
+        align-items: center;
+        display: block;
+        padding: 10px;
+        margin: 40px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #D7D2CB;
+    }
+    
+    .home-stats h1 {
+        padding: 0;
+        margin-bottom: 40px;
+        color:#363331;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .home-stats h1:hover {
+        color:#F76902;
+    }
+    
+    .home-stats h2 {
+        padding: 0;
+        margin: 15px;
+        color:#363331;
+        font-size: 14pt;
+    }
+    
+    #record {
+        font-size: 30pt;
+        color:#F76902;
+        margin-bottom: 15px;  
+        font-family: Oswald, sans-serif;
+        font-weight: normal;
+    }
+    
+    #awards {
+        font-size: 12pt;
+        color:#F76902;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 15px;
+        font-family: Oswald, sans-serif;
+        list-style-type: none;
+        line-height: 1.4;
+    }
+
+    .sponsor-thanks {
+        background-color: #ACA39A;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .sponsor-thanks p {
+        font-size: 12pt;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .sponsor-thanks h1 {
+        color: white;
+        margin-left: 0;
+    }
+    
+    .sponsor-thanks a {
+        font-size: 15pt;
+        align-items: center;
+        background-color: #D7D2CB;
+        color: #363331;
+        font-family: "Tahoma", sans-serif;
+        text-decoration: none;
+        border: none;
+        padding: 15px;
+        display: inline-block;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    
+    .sponsor-thanks a:hover {
+        background-color:#F76902;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer img {
+        margin: 30px;
+        margin-top: 50px;
+        height: 100px;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #D7D2CB;
+    }
+    
+    .footer h2 {
+        margin-left: 10px;
+    }
+
+    .footer p {
+        margin-left: 10px;
+    }
+    
+    #insta img {
+        width: 25px;
+        height: auto;
+        margin: 10px;
+        /* margin-top: 10px;
+        margin-bottom: 10px; */
+    }
+    
+    #youtube img {
+        width: 30px;
+        height: auto;
+        margin: 5px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -664,6 +695,14 @@ footer {
         font-size: 13pt;
         line-height: 1.4;
     }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 12pt;
+        display: inline-block;
+        height: 30px;
+    }
     
     .section1 {
         margin-bottom: 50px;
@@ -680,6 +719,154 @@ footer {
 
     .section4 p {
         margin-right: 50px;
+    }
+
+    .mission-statement p {
+        padding: 15px;
+        font-size: 15pt;
+        color: rgb(104, 104, 104);
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .scroll-container {
+        background-color: black;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+      
+    .scroll-container img {
+        padding:0;
+        max-height: 300px;
+    }
+
+    .home-stats {
+        text-align: center;
+        align-items: center;
+        display: block;
+        padding: 10px;
+        margin: 40px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #D7D2CB;
+    }
+    
+    .home-stats h1 {
+        padding: 0;
+        margin-bottom: 40px;
+        color:#363331;
+        margin-left: 0;
+    }
+    
+    .home-stats h1:hover {
+        color:#F76902;
+    }
+    
+    .home-stats h2 {
+        padding: 0;
+        margin: 15px;
+        color:#363331;
+        font-size: 15pt;
+    }
+    
+    #record {
+        font-size: 50pt;
+        color:#F76902;
+        margin-bottom: 20px;  
+        font-family: Oswald, sans-serif;
+        font-weight: normal;
+    }
+    
+    #awards {
+        font-size: 20pt;
+        color:#F76902;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 15px;
+        font-family: Oswald, sans-serif;
+        list-style-type: none;
+        line-height: 1.4;
+    }
+
+    .sponsor-thanks {
+        background-color: #ACA39A;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .sponsor-thanks p {
+        font-size: 15pt;
+        margin-left: 0;
+    }
+    
+    .sponsor-thanks h1 {
+        color: white;
+        margin-left: 0;
+    }
+    
+    .sponsor-thanks a {
+        font-size: 15pt;
+        align-items: center;
+        background-color: #D7D2CB;
+        color: #363331;
+        font-family: "Tahoma", sans-serif;
+        text-decoration: none;
+        border: none;
+        padding: 15px;
+        display: inline-block;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    
+    .sponsor-thanks a:hover {
+        background-color:#F76902;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer img {
+        margin: 50px;
+        width: 200px;
+        height: auto;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #D7D2CB;
+    }
+    
+    .footer h2 {
+        margin-left: 50px;
+    }
+    
+    #insta img {
+        width: 25px;
+        height: auto;
+        margin: 10px;
+        /* margin-top: 10px;
+        margin-bottom: 10px; */
+    }
+    
+    #youtube img {
+        width: 30px;
+        height: auto;
+        margin: 5px;
+        margin-top: 0;
+        margin-bottom: 10px;
     }
     
 }
