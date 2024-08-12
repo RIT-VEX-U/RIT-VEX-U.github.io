@@ -476,7 +476,11 @@ div.donate-steps div:before {
     height: auto;
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
 
     h1 {
         font-size: 15pt;
@@ -668,7 +672,7 @@ div.donate-steps div:before {
 
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     h1 {
         font-size: 25pt;
