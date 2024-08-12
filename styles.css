@@ -35,13 +35,6 @@ body {
     padding-bottom: 0;
 }
 
-.menu li {
-    padding: 10px;
-    /* padding-bottom: 0; */
-    display: inline;
-    position: relative;
-}
-
 .menu li:hover {
     background-color: #F76902;
     text-decoration: underline;
@@ -513,6 +506,12 @@ div.donate-steps div:before {
         height: 30px;
     }
 
+    .menu li {
+        padding: 5px;
+        display: inline;
+        position: relative;
+    }
+
     .mission-statement p {
         padding: 15px;
         font-size: 12pt;
@@ -704,6 +703,12 @@ div.donate-steps div:before {
         font-size: 12pt;
         display: inline-block;
         height: 30px;
+    }
+
+    .menu li {
+        padding: 10px;
+        display: inline;
+        position: relative;
     }
     
     .section1 {
