@@ -506,8 +506,12 @@ div.donate-steps div:before {
         height: 30px;
     }
 
+    .menu ul {
+        padding-left: 6px;
+    }
+
     .menu li {
-        padding: 5px;
+        padding: 3px;
         display: inline;
         position: relative;
     }
