@@ -295,6 +295,11 @@ body {
     margin-top: 0;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 .community-images {
     display: flex;
     flex-direction: row;
@@ -430,6 +435,11 @@ hr {
     margin-bottom: 10px;
     width: 400px;
     height: auto;
+}
+
+.one-time-donation {
+    text-align: center;
+    margin-top: 100px;
 }
 
 .donate-steps {
