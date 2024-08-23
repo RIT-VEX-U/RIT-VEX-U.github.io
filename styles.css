@@ -74,7 +74,7 @@ body {
 }
 
 #join p {
-    margin-left: 0;
+    text-align: center;
 }
 
 #join a:hover {
@@ -884,6 +884,10 @@ div.donate-steps div:before {
         font-family: Oswald, sans-serif;
         list-style-type: none;
         line-height: 1.4;
+    }
+
+    #join p {
+        margin-left: 0;
     }
 
     .sponsor-thanks {
