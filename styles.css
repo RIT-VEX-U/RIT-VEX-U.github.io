@@ -447,7 +447,7 @@ div.donate-steps div:before {
 @media only screen and (max-width: 600px) {
 
     h1 {
-        font-size: 15pt;
+        font-size: 18pt;
         color: black;
         margin-left: 100px;
         margin-right: 100px;
@@ -620,6 +620,16 @@ div.donate-steps div:before {
     
     .sponsor-thanks a:hover {
         background-color:#F76902;
+    }
+
+    .title-team {
+        text-align: center;
+    }
+    
+    .title-team h1 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .logo-small img {
