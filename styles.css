@@ -276,27 +276,6 @@ body {
     border: 1px solid #9b9792;
 }
 
-#content {
-    padding: 0;
-    justify-content: center;
-}
-
-#content h2 {
-    display: block;
-    margin-left: 100px;
-}
-
-#content h3 {
-    display: block;
-    margin-left: 100px;
-}
-
-#content p {
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 .section4 h2 {
     margin-top: 0;
 }
@@ -388,6 +367,18 @@ hr {
     font-size: 11pt;
 }
 
+.center-h3 {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.current-sponsors h2 {
+    text-align: center;
+    font-size: 24pt;
+}
+
 .sponsor-logos {
     margin: 0 auto;
     width: 90%;
@@ -402,53 +393,20 @@ hr {
     justify-content: center;
     text-align: center;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     margin: 40px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.logo-small img {
-    padding: 10px;
-    margin: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 200px;
-    height: auto;
-}
-
-.logo-med img {
-    padding: 10px;
-    margin: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: auto;
-}
-
-.logo-large img {
-    padding: 10px;
-    margin: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 350px;
-    height: auto;
-}
-
-.logo-long img {
-    padding: 10px;
-    margin: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 400px;
-    height: auto;
-}
-
 .one-time-donation {
     text-align: center;
     margin-top: 100px;
+    margin-left: 0;
 }
 
-.donate-steps {
+/* .donate-steps {
     font-family: "Lucida Sans", sans-serif;
     font-size: 15pt;
     margin-left: 100px;
@@ -473,7 +431,7 @@ div.donate-steps div:before {
     background-color:#F76902;
     border-radius:50%;
     color:#fff;
-}
+} */
 
 .sponsor-tiers img {
     display: block;
@@ -492,6 +450,7 @@ div.donate-steps div:before {
         font-size: 15pt;
         color: black;
         margin-left: 100px;
+        margin-right: 100px;
         margin-top: 50px;
     }
 
@@ -499,17 +458,21 @@ div.donate-steps div:before {
         font-size: 14pt;
         color: rgb(85, 85, 85);
         margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     h3 {
         font-size: 12pt;
         color: rgb(94, 94, 94);
-        margin-left: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
     
     p {
         color:rgb(79, 79, 79);
-        margin-left: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 11pt;
         line-height: 1.4;
     }
@@ -659,6 +622,69 @@ div.donate-steps div:before {
         background-color:#F76902;
     }
 
+    .logo-small img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo-med img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 70%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo-large img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 70%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo-long img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 85%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .one-time-donation {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sponsor-tiers img {
+        display: block;
+        text-align: center;
+        margin: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -732,6 +758,27 @@ div.donate-steps div:before {
         margin-left: 50px;
         font-size: 13pt;
         line-height: 1.4;
+    }
+
+    #content {
+        padding: 0;
+        justify-content: center;
+    }
+    
+    #content h2 {
+        display: block;
+        margin-left: 100px;
+    }
+    
+    #content h3 {
+        display: block;
+        margin-left: 100px;
+    }
+    
+    #content p {
+        display: block;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .menu a {
@@ -875,11 +922,51 @@ div.donate-steps div:before {
         background-color:#F76902;
     }
 
+    .logo-small img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: auto;
+    }
+    
+    .logo-med img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: auto;
+    }
+    
+    .logo-large img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 350px;
+        height: auto;
+    }
+    
+    .logo-long img {
+        padding: 10px;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 400px;
+        height: auto;
+    }
+
     .footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .one-time-donation {
+        margin-left: 0;
     }
     
     .footer img {
