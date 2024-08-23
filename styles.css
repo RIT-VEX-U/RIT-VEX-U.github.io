@@ -541,7 +541,7 @@ div.donate-steps div:before {
     }
 
     .banner img {
-        height: 150px;
+        height: 80px;
         width: auto;
         overflow: hidden;
         object-fit: cover;
