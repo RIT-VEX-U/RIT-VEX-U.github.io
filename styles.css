@@ -283,6 +283,8 @@ body {
 iframe {
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .community-images {
@@ -622,6 +624,56 @@ div.donate-steps div:before {
         background-color:#F76902;
     }
 
+    .section1 {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .title h1 {
+        margin-left: 45px;
+    }
+    
+    .section1 img {
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .section1 h2 {
+        margin-left: 45px;
+    }
+
+    .section1 p {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .section3 h2 {
+        margin-left: 45px;
+    }
+
+    .section3 p {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .section4 h2 {
+        margin-left: 45px;
+    }
+
+    .section4 h3 {
+        margin-left: 45px;
+    }
+
+    .section4 p {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
     .title-team {
         text-align: center;
     }
@@ -630,6 +682,42 @@ div.donate-steps div:before {
         text-align: center;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .image-overlay {
+        margin-top: 0;
+    }
+
+    .image-overlay img {
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .image-text h2 {
+        font-size: 20pt;
+        margin-bottom: 0;
+        top: 20px;
+    }
+
+    .image-text p {
+        margin-top: 0;
+        font-size: 15pt;
+        top: 80px;
+    }
+
+    .meet-the-team {
+        margin-bottom: 40px;
+    }
+
+    .meet-the-team a {
+        font-size: 12pt;
+    }
+
+    iframe {
+        width: 60%;
+        height: auto;
     }
 
     .logo-small img {
