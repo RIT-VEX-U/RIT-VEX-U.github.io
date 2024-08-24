@@ -723,17 +723,66 @@ div.donate-steps div:before {
         margin-right: auto;
     }
 
-    .season-flex-2 {
+    .season-flex-ou {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
     }
 
-    .season-flex-2 img {
+    .season-flex-ou {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-ou img {
+        height: 80px;
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+
+    .season-flex-su {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-su img {
         height: 80px;
         width: auto;
         margin-left: 10px;
+    }
+
+    .season-flex-tip {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-tip img {
+        height: 80px;
+        width: auto;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .season-flex-tt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-tt img {
+        height: 100px;
+        width: auto;
+        margin-left: 10px;
+        margin-top: 50px;
     }
 
     .logo-small img {
@@ -1063,16 +1112,59 @@ div.donate-steps div:before {
         margin-left: 150px;
     }
 
-    .season-flex-2 {
+    .season-flex-ou {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
     }
 
-    .season-flex-2 img {
+    .season-flex-ou img {
+        height: 80px;
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+
+    .season-flex-su {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-su img {
+        height: 80px;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .season-flex-tip {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-tip img {
         height: 100px;
-        margin-left: 30px;
+        width: auto;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .season-flex-tt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-tt img {
+        height: 100px;
+        width: auto;
+        margin-left: 10px;
+        margin-top: 50px;
     }
 
     .center-h3 h3 {
