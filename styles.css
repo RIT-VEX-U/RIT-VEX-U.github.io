@@ -195,57 +195,6 @@ body {
     font-family: "Lucida Sans", sans-serif;
 }
 
-.seasons-list ul {
-    /* width: 30%; */
-    z-index: -100;
-}
-
-.seasons-list ul li {
-    z-index: -100;
-    left: 0;
-    color: #000000;
-    list-style: none;
-    margin: 4px 0;
-    border-left: 2px solid #F76902;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.seasons-list ul li:hover {
-    left: 10px;
-}
-
-.seasons-list ul li span {
-    position: relative;
-    /* z-index: -100; */
-    padding: 8px;
-    padding-left: 12px;
-    display: inline-block;
-    z-index: 1;
-    transition: 0.5s;
-    font-size: 18pt;
-}
-
-.seasons-list ul li:hover span {
-    color: #111;
-}
-
-.seasons-list ul li:before {
-    content: "";
-    position: absolute;
-    z-index: -100;
-    width: 20%;
-    height: 45px;
-    background: #F76902;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: 0.5s;
-}
-
-.seasons-list ul li:hover:before {
-    transform: scaleX(1);
-}
-
 .awards-list p {
     font-size: 13pt;
     padding: 0;
@@ -385,33 +334,6 @@ hr {
     margin-top: 50px;
     margin-left: 0;
 }
-
-/* .donate-steps {
-    font-family: "Lucida Sans", sans-serif;
-    font-size: 15pt;
-    margin-left: 100px;
-}
-
-div.donate-steps {
-    counter-reset: list-number;
-}
-
-div.donate-steps div:before {
-    counter-increment: list-number;
-    content: counter(list-number);
-    
-    margin-right: 10px;
-    margin-bottom:10px;
-    width:35px;
-    height:35px;
-    display:inline-flex;
-    align-items:center;
-    justify-content: center;
-    font-size:16px;
-    background-color:#F76902;
-    border-radius:50%;
-    color:#fff;
-} */
 
 .sponsor-tiers img {
     display: block;
@@ -706,8 +628,22 @@ div.donate-steps div:before {
         object-fit: cover;
     }
 
-    .seasons-title h1 {
-        margin-left: 50px;
+    .seasons-list ul li span {
+        padding: 8px;
+        padding-left: 12px;
+        display: inline-block;
+        font-size: 18pt;
+    }
+
+    .seasons-list ul li {
+        color: #000000;
+        list-style: none;
+        margin: 4px 0;
+        border-left: 2px solid #F76902;
+    }
+    
+    .single-season {
+        padding-left: 0;
     }
 
     .seasons-list {
@@ -728,13 +664,7 @@ div.donate-steps div:before {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-    }
-
-    .season-flex-ou {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
+        margin-left: 0;
     }
 
     .season-flex-ou img {
@@ -742,6 +672,7 @@ div.donate-steps div:before {
         width: auto;
         margin-left: 0;
         margin-bottom: 100px;
+        margin-right: 15px;
     }
 
     .season-flex-su {
@@ -756,6 +687,7 @@ div.donate-steps div:before {
         width: auto;
         margin-left: 10px;
         margin-bottom: 80px;
+        margin-right: 15px;
     }
 
     .season-flex-tip {
@@ -770,6 +702,7 @@ div.donate-steps div:before {
         width: auto;
         margin-left: 10px;
         margin-bottom: 20px;
+        margin-right: 15px;
     }
 
     .season-flex-tt {
@@ -784,6 +717,7 @@ div.donate-steps div:before {
         width: auto;
         margin-left: 10px;
         margin-top: 30px;
+        margin-right: 15px;
     }
 
     .logo-small img {
@@ -1099,6 +1033,57 @@ div.donate-steps div:before {
     .community-images img {
         height: 250px;
         width: 350px;
+    }
+
+    .seasons-list ul {
+        /* width: 30%; */
+        z-index: -100;
+    }
+    
+    .seasons-list ul li {
+        z-index: -100;
+        left: 0;
+        color: #000000;
+        list-style: none;
+        margin: 4px 0;
+        border-left: 2px solid #F76902;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .seasons-list ul li:hover {
+        left: 10px;
+    }
+    
+    .seasons-list ul li span {
+        position: relative;
+        /* z-index: -100; */
+        padding: 8px;
+        padding-left: 12px;
+        display: inline-block;
+        z-index: 1;
+        transition: 0.5s;
+        font-size: 18pt;
+    }
+    
+    .seasons-list ul li:hover span {
+        color: #111;
+    }
+    
+    .seasons-list ul li:before {
+        content: "";
+        position: absolute;
+        z-index: -100;
+        width: 20%;
+        height: 45px;
+        background: #F76902;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: 0.5s;
+    }
+    
+    .seasons-list ul li:hover:before {
+        transform: scaleX(1);
     }
 
     .season-flex {
