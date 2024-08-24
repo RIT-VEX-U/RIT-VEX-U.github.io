@@ -291,20 +291,6 @@ iframe {
     margin-bottom: 30px;
 }
 
-.community-images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.community-images img {
-    height: 250px;
-    width: 350px;
-}
-
 figure {
     padding: 15px;
     margin: 0;
@@ -728,8 +714,15 @@ div.donate-steps div:before {
     }
 
     iframe {
-        width: 60%;
+        width: 80%;
         height: auto;
+    }
+
+    .community-images img {
+        width: 80%;
+        height: 200px;
+        overflow: hidden;
+        object-fit: cover;
     }
 
     .logo-small img {
@@ -1032,6 +1025,20 @@ div.donate-steps div:before {
     
     .sponsor-thanks a:hover {
         background-color:#F76902;
+    }
+
+    .community-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .community-images img {
+        height: 250px;
+        width: 350px;
     }
 
     .logo-small img {
