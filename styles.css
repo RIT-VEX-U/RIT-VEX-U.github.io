@@ -662,9 +662,7 @@ hr {
     .season-flex-ou {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: center;
-        margin-left: 0;
     }
 
     .season-flex-ou img {
@@ -678,14 +676,13 @@ hr {
     .season-flex-su {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: center;
     }
 
     .season-flex-su img {
         height: 70px;
         width: auto;
-        margin-left: 5px;
+        margin-left: 0;
         margin-bottom: 80px;
         margin-right: 15px;
     }
@@ -693,14 +690,13 @@ hr {
     .season-flex-tip {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: center;
     }
 
     .season-flex-tip img {
         height: 80px;
         width: auto;
-        margin-left: 10px;
+        margin-left: 0;
         margin-bottom: 20px;
         margin-right: 15px;
     }
@@ -708,14 +704,13 @@ hr {
     .season-flex-tt {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: center;
     }
 
     .season-flex-tt img {
         height: 100px;
         width: auto;
-        margin-left: 10px;
+        margin-left: 0;
         margin-top: 30px;
         margin-right: 15px;
     }
