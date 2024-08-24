@@ -741,7 +741,7 @@ div.donate-steps div:before {
         height: 80px;
         width: auto;
         margin-left: 0;
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
 
     .season-flex-su {
@@ -755,6 +755,7 @@ div.donate-steps div:before {
         height: 80px;
         width: auto;
         margin-left: 10px;
+        margin-bottom: 80px;
     }
 
     .season-flex-tip {
@@ -768,7 +769,7 @@ div.donate-steps div:before {
         height: 80px;
         width: auto;
         margin-left: 10px;
-        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .season-flex-tt {
@@ -782,7 +783,7 @@ div.donate-steps div:before {
         height: 100px;
         width: auto;
         margin-left: 10px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .logo-small img {
