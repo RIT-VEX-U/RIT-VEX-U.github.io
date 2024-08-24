@@ -1042,6 +1042,11 @@ div.donate-steps div:before {
         width: 350px;
     }
 
+    .center-h3 h3 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
     .logo-small img {
         padding: 10px;
         margin: 40px;
