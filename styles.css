@@ -257,18 +257,6 @@ body {
     line-height: 12px;
 }
 
-.season-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.season-flex img {
-    height: 300px;
-    margin-left: 200px;
-}
-
 .section2 h2 {
     padding: 0;
     margin-left: 0;
@@ -679,13 +667,6 @@ div.donate-steps div:before {
         margin-top: 0;
     }
 
-    /* .image-overlay img {
-        width: 90%;
-        height: auto;
-        overflow: hidden;
-        object-fit: cover;
-    } */
-
     .image-overlay img {
         height: 225px;
         width: auto;
@@ -723,6 +704,36 @@ div.donate-steps div:before {
         height: 200px;
         overflow: hidden;
         object-fit: cover;
+    }
+
+    .seasons-title h1 {
+        margin-left: 50px;
+    }
+
+    .seasons-list {
+        margin-left: 0;
+    }
+
+    .season-flex img {
+        width: 90%;
+        height: auto;
+        display: block;
+        text-align: center;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .season-flex-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-2 img {
+        height: 80px;
+        width: auto;
+        margin-left: 10px;
     }
 
     .logo-small img {
@@ -941,8 +952,6 @@ div.donate-steps div:before {
         max-height: 300px;
     }
 
-    /* fix  home-stats h1 and sponsor-thanks h1*/
-
     .home-stats {
         text-align: center;
         align-items: center;
@@ -1040,6 +1049,30 @@ div.donate-steps div:before {
     .community-images img {
         height: 250px;
         width: 350px;
+    }
+
+    .season-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .season-flex img {
+        height: 300px;
+        margin-left: 150px;
+    }
+
+    .season-flex-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-2 img {
+        height: 100px;
+        margin-left: 30px;
     }
 
     .center-h3 h3 {
