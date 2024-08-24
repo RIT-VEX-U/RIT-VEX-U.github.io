@@ -81,6 +81,10 @@ body {
     background-color:#F76902;
 }
 
+.home-stats h1:hover {
+    color:#F76902;
+}
+
 .image-overlay {
     width: 100%;
     position: relative;
@@ -555,10 +559,7 @@ div.donate-steps div:before {
         color:#363331;
         margin-left: 0;
         margin-top: 20px;
-    }
-    
-    .home-stats h1:hover {
-        color:#F76902;
+        width: 100%;
     }
     
     .home-stats h2 {
@@ -602,7 +603,10 @@ div.donate-steps div:before {
     
     .sponsor-thanks h1 {
         color: white;
-        margin-left: 0;
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .sponsor-thanks a {
@@ -617,6 +621,7 @@ div.donate-steps div:before {
         display: inline-block;
         border-radius: 8px;
         margin-bottom: 15px;
+        margin-top: 15px;
         margin-left: 0;
     }
     
@@ -688,9 +693,16 @@ div.donate-steps div:before {
         margin-top: 0;
     }
 
-    .image-overlay img {
+    /* .image-overlay img {
         width: 90%;
         height: auto;
+        overflow: hidden;
+        object-fit: cover;
+    } */
+
+    .image-overlay img {
+        height: 225px;
+        width: auto;
         overflow: hidden;
         object-fit: cover;
     }
@@ -698,13 +710,13 @@ div.donate-steps div:before {
     .image-text h2 {
         font-size: 20pt;
         margin-bottom: 0;
-        top: 20px;
+        top: 15px;
     }
 
     .image-text p {
         margin-top: 0;
-        font-size: 15pt;
-        top: 80px;
+        font-size: 13pt;
+        top: 60px;
     }
 
     .meet-the-team {
@@ -935,6 +947,8 @@ div.donate-steps div:before {
         max-height: 300px;
     }
 
+    /* fix  home-stats h1 and sponsor-thanks h1*/
+
     .home-stats {
         text-align: center;
         align-items: center;
@@ -952,10 +966,6 @@ div.donate-steps div:before {
         margin-bottom: 40px;
         color:#363331;
         margin-left: 0;
-    }
-    
-    .home-stats h1:hover {
-        color:#F76902;
     }
     
     .home-stats h2 {
