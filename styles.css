@@ -29,6 +29,7 @@ body {
     padding-left: 0;
     background-color: black;
     position: fixed;
+    z-index: 100;
     top: 0;
     font-family: "Tahoma", sans-serif;
     width: 100%;
@@ -1090,7 +1091,7 @@ hr {
         content: "";
         position: absolute;
         z-index: -100;
-        width: 20%;
+        width: 250px;
         height: 45px;
         background: #F76902;
         transform: scaleX(0);
@@ -1115,7 +1116,7 @@ hr {
     }
 
     .season-flex-ou {
-        z-index: -100;
+        z-index: 0;
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1124,17 +1125,17 @@ hr {
     }
 
     .season-flex-ou img {
-        z-index: -100;
+        z-index: 0;
         position: absolute;
         height: 80px;
         width: auto;
         left: 0;
         margin-left: 200px;
-        margin-bottom: 80px;
+        margin-bottom: 70px;
     }
 
     .season-flex-su {
-        z-index: -100;
+        z-index: 0;
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1143,17 +1144,17 @@ hr {
     }
 
     .season-flex-su img {
-        z-index: -100;
+        z-index: 0;
         position: absolute;
         height: 80px;
         width: auto;
         left: 0;
         margin-left: 200px;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
 
     .season-flex-tip {
-        z-index: -100;
+        z-index: 0;
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1162,16 +1163,17 @@ hr {
     }
 
     .season-flex-tip img {
-        z-index: -100;
+        z-index: 0;
         position: absolute;
         height: 100px;
         width: auto;
         left: 0;
         margin-left: 200px;
+        margin-top: 10px;
     }
 
     .season-flex-tt {
-        z-index: -100;
+        z-index: 0;
         position: relative;
         display: flex;
         flex-direction: row;
@@ -1180,7 +1182,7 @@ hr {
     }
 
     .season-flex-tt img {
-        z-index: -100;
+        z-index: 0;
         position: absolute;
         height: 100px;
         width: auto;
