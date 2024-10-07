@@ -800,6 +800,10 @@ hr {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .footer u {
+        text-decoration: underline;
+    }
     
     .footer img {
         margin-top: 60px;
