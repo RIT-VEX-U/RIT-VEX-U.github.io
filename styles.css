@@ -40,6 +40,10 @@ body {
     text-align: center;
 }
 
+#album img:hover {
+    opacity: 0.5;
+}
+
 #join {
     text-align: center;
     margin-bottom: 40px;
