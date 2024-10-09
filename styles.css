@@ -353,7 +353,6 @@ hr {
     }
 
     .container a.icon {
-        background: black;
         display: block;
         position: fixed;
         right: 0;
@@ -878,7 +877,6 @@ hr {
         bottom: 0px;
         max-width: 100%;
         height: auto;
-        /* margin-top: 45px; */
     }
     
     .container ul {

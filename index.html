@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon"  href="images/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>RIT VEX U Robotics</title>
     <style type="text/css">
         body { 
@@ -17,7 +18,7 @@
 
 <body>
     <div class="container">
-        <div class="menu">
+        <div id="menu">
             <ul>
                 <a href="index.html" id="selected"><li>Home</li></a>
                 <a href="about.html"><li>About</li></a>
@@ -26,6 +27,9 @@
                 <a href="sponsors.html"><li>Sponsors</li></a>
             </ul>
         </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
         <div class="banner">
             <img src="images/banner.png">
         </div>
@@ -89,6 +93,15 @@
         <a href="https://www.instagram.com/ritrobotics" id="insta" target="_blank"><img src="images/instagram.png"></a>
         <a href="https://www.youtube.com/@ritrobotics" id="youtube" target="_blank"><img src="images/youtube.png"></a>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+        }
+    </script>
 </body>
-
 </html>
