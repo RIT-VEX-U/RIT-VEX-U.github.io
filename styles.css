@@ -12,33 +12,19 @@ body {
     display: table;
 }
 
-.container {
-    background-color: black;
-}
-
-.banner img{
-    bottom: 0px;
-    max-width: 100%;
-    height: auto;
-    margin-top: 45px;
-}
-
-.menu ul {
-    margin: 0;
-    padding: 10px;
-    padding-left: 0;
-    background-color: black;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    font-family: "Tahoma", sans-serif;
+.banner {
     width: 100%;
-    padding-bottom: 0;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.menu li:hover {
-    background-color: #F76902;
-    text-decoration: underline;
+.banner img {
+    height: 80px;
+    width: auto;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 #selected li:hover {
@@ -348,6 +334,76 @@ hr {
 
 /* PORTRAIT MOBILE PHONES */
 @media only screen and (max-width: 600px) {
+    .container {
+        overflow: hidden;
+        background-color: black;
+        position: relative;
+    }
+
+    .container #menu {
+        display: none;
+    }
+
+    .container a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .container a.icon {
+        background: black;
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .container ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        padding-left: 0;
+        background-color: black;
+        top: 0;
+        font-family: "Tahoma", sans-serif;
+        padding-bottom: 0;
+    }
+
+    .container a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .container li:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    #selected li:hover {
+        background-color: #ddd;
+        text-decoration: underline;
+        color:#F76902;
+    }
+
+    .active {
+        color: white;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center; /* Centers the image horizontally */
+        align-items: center;     /* Centers the image vertically (if needed) */
+        width: 100%;
+        height: auto;
+    }
+    
+    .banner img {
+        height: 80px;
+        width: auto;
+        object-fit: cover;
+    }
 
     h1 {
         font-size: 18pt;
@@ -378,39 +434,6 @@ hr {
         margin-right: 20px;
         font-size: 11pt;
         line-height: 1.4;
-    }
-
-    .menu a {
-        text-decoration: none;
-        color: white;
-        font-size: 10pt;
-        display: inline-block;
-        height: 30px;
-    }
-
-    .menu ul {
-        padding-left: 6px;
-    }
-
-    .menu li {
-        padding: 5px;
-        display: inline;
-        position: relative;
-    }
-
-    .banner {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .banner img {
-        height: 80px;
-        width: auto;
-        overflow: hidden;
-        object-fit: cover;
     }
 
     .mission-statement p {
@@ -847,6 +870,49 @@ hr {
 /* LAPTOP, DESKTOP, LANDSCAPE TABLETS */
 @media only screen and (min-width: 600px) {
 
+    .container {
+        background-color: black;
+    }
+    
+    .banner img{
+        bottom: 0px;
+        max-width: 100%;
+        height: auto;
+        /* margin-top: 45px; */
+    }
+    
+    .container ul {
+        margin: 0;
+        padding: 10px;
+        padding-left: 0;
+        background-color: black;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        font-family: "Tahoma", sans-serif;
+        width: 100%;
+        padding-bottom: 0;
+    }
+    
+    .container li:hover {
+        background-color: #F76902;
+        text-decoration: underline;
+    }
+
+    .container a {
+        text-decoration: none;
+        color: white;
+        font-size: 12pt;
+        display: inline-block;
+        height: 30px;
+    }
+
+    .container li {
+        padding: 10px;
+        display: inline;
+        position: relative;
+    }
+
     h1 {
         font-size: 25pt;
         color: black;
@@ -892,20 +958,6 @@ hr {
         display: block;
         margin-left: 100px;
         margin-right: 100px;
-    }
-
-    .menu a {
-        text-decoration: none;
-        color: white;
-        font-size: 12pt;
-        display: inline-block;
-        height: 30px;
-    }
-
-    .menu li {
-        padding: 10px;
-        display: inline;
-        position: relative;
     }
     
     .section1 {
