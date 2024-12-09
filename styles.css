@@ -1,3 +1,8 @@
+:root {
+    --orange: #F76902;
+    --vexred: #D52A2F;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -33,7 +38,7 @@ body {
 }
  
 #selected {
-    color:#F76902;
+    color:var(--orange);
 }
 
 .mission-statement {
@@ -69,11 +74,11 @@ body {
 }
 
 #join a:hover {
-    background-color:#F76902;
+    background-color: var(--orange);
 }
 
 .home-stats h1:hover {
-    color:#F76902;
+    color:var(--orange);
 }
 
 .image-overlay {
@@ -104,7 +109,7 @@ body {
     text-align: center;
     display: inline-block;
     font-weight: bolder;
-    -webkit-text-stroke: 1px #F76902;
+    -webkit-text-stroke: 1px var(--orange);
     -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 30pt;
     text-decoration: underline solid rgb(255, 255, 255) 2px;
@@ -119,7 +124,7 @@ body {
     margin: 0 auto;
     text-align: center;
     display: inline-block;
-    -webkit-text-stroke: 1px #F76902;
+    -webkit-text-stroke: 1px var(--orange);
     -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 20pt;
     font-weight: bold;
@@ -144,7 +149,7 @@ body {
 }
 
 .meet-the-team a:hover {
-    background-color:#F76902;
+    background-color:var(--orange);
 }
 
 .seasons-list {
@@ -162,7 +167,7 @@ body {
     padding-bottom: 10px;
     margin: 0;
     margin-left: 15px;
-    color: #F76902;
+    color: var(--orange);
 }
 
 .award {
@@ -357,6 +362,8 @@ hr {
     }
 
     .container a.icon {
+        color: var(--vexred);
+        mix-blend-mode: difference;
         display: block;
         position: fixed;
         right: 0;
@@ -387,7 +394,7 @@ hr {
     #selected li:hover {
         background-color: #ddd;
         text-decoration: underline;
-        color:#F76902;
+        color:var(--orange);
     }
 
     .active {
@@ -494,7 +501,7 @@ hr {
     
     #record {
         font-size: 30pt;
-        color:#F76902;
+        color:var(--orange);
         margin-bottom: 15px;  
         font-family: Oswald, sans-serif;
         font-weight: normal;
@@ -502,7 +509,7 @@ hr {
     
     #awards {
         font-size: 12pt;
-        color:#F76902;
+        color:var(--orange);
         padding: 0;
         margin: 0;
         padding-bottom: 15px;
@@ -550,7 +557,7 @@ hr {
     }
     
     .sponsor-thanks a:hover {
-        background-color:#F76902;
+        background-color:var(--orange);
     }
 
     .section1 {
@@ -667,7 +674,7 @@ hr {
         color: #000000;
         list-style: none;
         margin: 4px 0;
-        border-left: 2px solid #F76902;
+        border-left: 2px solid var(--orange);
     }
     
     .single-season {
@@ -685,6 +692,24 @@ hr {
         text-align: center;
         margin-left: 0;
         margin-right: auto;
+    }
+
+    .season-flex-hs {
+        z-index: -100;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .season-flex-hs img {
+        z-index: -100;
+        position: absolute;
+        height: 60px;
+        width: auto;
+        left: 0;
+        margin-left: 180px;
+        margin-bottom: 20px;
     }
 
     .season-flex-ou {
@@ -897,7 +922,7 @@ hr {
     }
     
     .container li:hover {
-        background-color: #F76902;
+        background-color: var(--orange);
         text-decoration: underline;
     }
 
@@ -1033,7 +1058,7 @@ hr {
     
     #record {
         font-size: 50pt;
-        color:#F76902;
+        color:var(--orange);
         margin-bottom: 20px;  
         font-family: Oswald, sans-serif;
         font-weight: normal;
@@ -1041,7 +1066,7 @@ hr {
     
     #awards {
         font-size: 20pt;
-        color:#F76902;
+        color:var(--orange);
         padding: 0;
         margin: 0;
         padding-bottom: 15px;
@@ -1049,6 +1074,14 @@ hr {
         list-style-type: none;
         line-height: 1.4;
         margin-bottom: 20px;  
+    }
+
+    .stats-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
     }
 
     #join p {
@@ -1089,7 +1122,7 @@ hr {
     }
     
     .sponsor-thanks a:hover {
-        background-color:#F76902;
+        background-color:var(--orange);
     }
 
     .community-images {
@@ -1117,7 +1150,7 @@ hr {
         color: #000000;
         list-style: none;
         margin: 4px 0;
-        border-left: 2px solid #F76902;
+        border-left: 2px solid var(--orange);
         transition: 0.5s;
         cursor: pointer;
     }
@@ -1147,7 +1180,7 @@ hr {
         z-index: -100;
         width: 250px;
         height: 45px;
-        background: #F76902;
+        background: var(--orange);
         transform: scaleX(0);
         transform-origin: left;
         transition: 0.5s;
@@ -1169,6 +1202,25 @@ hr {
         margin-left: 150px;
     }
 
+    .season-flex-hs {
+        z-index: 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .season-flex-hs img {
+        z-index: 0;
+        position: absolute;
+        height: 60px;
+        width: auto;
+        left: 0;
+        margin-left: 170px;
+        margin-top: 10px;
+    }
+
     .season-flex-ou {
         z-index: 0;
         position: relative;
@@ -1185,7 +1237,7 @@ hr {
         width: auto;
         left: 0;
         margin-left: 200px;
-        margin-bottom: 70px;
+        margin-bottom: 60px;
     }
 
     .season-flex-su {
@@ -1204,7 +1256,7 @@ hr {
         width: auto;
         left: 0;
         margin-left: 200px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .season-flex-tip {
@@ -1223,7 +1275,7 @@ hr {
         width: auto;
         left: 0;
         margin-left: 200px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .season-flex-tt {
@@ -1242,7 +1294,7 @@ hr {
         width: auto;
         left: 0;
         margin-left: 200px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .center-h3 h3 {
