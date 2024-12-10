@@ -351,6 +351,8 @@ hr {
 
     .container #menu {
         display: none;
+        position: fixed;
+        width: 100%;
     }
 
     .container a {
@@ -362,12 +364,12 @@ hr {
     }
 
     .container a.icon {
-        color: var(--vexred);
-        mix-blend-mode: difference;
+        color: white;
         display: block;
         position: fixed;
         right: 0;
         top: 0;
+        text-shadow: 0 1px 7px #000000;
     }
 
     .container ul {
