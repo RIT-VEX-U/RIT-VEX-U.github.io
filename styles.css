@@ -130,13 +130,14 @@ body {
     text-align: center;
     display: inline-block;
     font-weight: bolder;
-    -webkit-text-stroke: 1px var(--orange);
+    -webkit-text-stroke: 1.5px #ca5400;
     -webkit-text-fill-color: rgb(255, 255, 255);
-    font-size: 30pt;
+    font-size: 32pt;
     text-decoration: underline solid rgb(255, 255, 255) 2px;
 }
 
 .image-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 100;
     position: absolute;
     top: 120px;
@@ -145,10 +146,10 @@ body {
     margin: 0 auto;
     text-align: center;
     display: inline-block;
-    -webkit-text-stroke: 1px var(--orange);
+    -webkit-text-stroke: 1.5px #ca5400;
     -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 20pt;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .meet-the-team {
@@ -1240,7 +1241,7 @@ hr {
         height: 60px;
         width: auto;
         left: 0;
-        margin-left: 170px;
+        margin-left: 190px;
         margin-top: 10px;
     }
 
