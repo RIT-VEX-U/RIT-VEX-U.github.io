@@ -877,15 +877,20 @@ hr {
         justify-content: center;
     }
 
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
     .footer u {
         text-decoration: underline;
     }
     
     .footer img {
-        margin-top: 60px;
-        margin-left: 15px;
-        margin-right: 30px;
-        margin-bottom: 0;
+        margin-top: 20px;
         height: 100px;
     }
     
@@ -901,6 +906,7 @@ hr {
 
     .footer p {
         margin: 15px;
+        font-size: 0.85em;
     }
     
     #insta img {
@@ -1025,8 +1031,26 @@ hr {
         margin-bottom: 50px;
     }
 
-    .section4 p {
-        margin-right: 50px;
+    .title {
+        margin-left: 100px !important;
+    }
+
+    .right-img {
+        margin-right: 200px !important;
+    }
+
+    .section1 h2, .section1 p {
+        margin-left: 200px !important;
+    }
+    
+    .section3 h2, .section3 h3, .section3 p {
+        margin-left: 200px !important;
+        margin-right: 200px !important;
+    }
+
+    .section4 h2, .section4 h3, .section4 p {
+        margin-left: 200px !important;
+        margin-right: 200px !important;
     }
 
     .mission-statement p {
@@ -1387,6 +1411,14 @@ hr {
     .footer h2 {
         margin-left: 50px;
     }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
     
     #insta img {
         width: 25px;
@@ -1406,3 +1438,28 @@ hr {
     
 }
 
+@media only screen and (min-width: 1920px) {
+
+    .title {
+        margin-left: 200px !important;
+    }
+
+    .right-img {
+        margin-right: 300px !important;
+    }
+
+    .section1 h2, .section1 p {
+        margin-left: 300px !important;
+    }
+    
+    .section3 h2, .section3 h3, .section3 p {
+        margin-left: 300px !important;
+        margin-right: 300px !important;
+    }
+
+    .section4 h2, .section4 h3, .section4 p {
+        margin-left: 300px !important;
+        margin-right: 300px !important;
+    }
+
+}
